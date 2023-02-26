@@ -1,0 +1,39 @@
+.search-res-container{
+    width: 50%;
+    height: fit-content;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top-section{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.top-section img{
+    width: 40px;
+}
+.url-info{
+    color: white;
+    text-align: left;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-section-title{
+    color: #1a0dab;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.body-section-desc{
+    text-align: left;
+}

@@ -1,0 +1,40 @@
+footer{
+    width: 100%;
+    background-color: #171717;
+    height: 120px;
+}
+
+footer h4 {
+    color: #bdc1c6;
+	font-size: 15px;
+    padding: 15px 30px;
+	font-weight: 400;
+
+	border-bottom: 1px solid #3c4043;
+
+}
+
+footer a {
+	color: #bdc1c6;
+	display: inline-block;
+	padding: 12px 11.3px;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+.links {
+	
+	display: flex;
+}
+.link-1 {
+	padding-left: 18.7px;
+	flex: 1;
+	
+}
+.link-2 {
+	padding-right: 18.7px;
+}

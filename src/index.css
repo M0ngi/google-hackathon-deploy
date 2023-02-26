@@ -7,7 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  text-decoration: none !important;
+}
+
+body{
+  background-color: #202124;
+  color: #bdc1c6;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: "arial";
+  src: url("./assets/fonts/arial.ttf") format("truetype");
+}
+@font-face {
+  font-family: "sans-serif";
+  src: url("./assets/fonts/SansSerif.ttf") format("truetype");
 }

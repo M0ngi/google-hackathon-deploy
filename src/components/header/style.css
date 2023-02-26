@@ -1,0 +1,21 @@
+.head{
+    display: flex;
+    justify-content:end;
+    padding: 4px;
+    height: 40px;
+}
+.head iconify-icon{
+    padding:0 20px;
+}
+.head .img{
+    padding-left: 20px;
+}
+.head .text{
+    padding: 2px 5px 1px;
+    margin-bottom: 7px;
+    border-radius: 50%;
+    background-color: green;
+}
+.head .line:hover{
+    text-decoration: underline;
+}
